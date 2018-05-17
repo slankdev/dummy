@@ -48,3 +48,6 @@ CFLAGS += -O3
 CFLAGS += $(WERROR_FLAGS)
 
 include $(RTE_SDK)/mk/rte.extapp.mk
+
+run:
+	./build/l2fwd
